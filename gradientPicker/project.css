@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    background: linear-gradient(to right, #5c91dc, rgb(152, 63, 19));
+    max-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+#myButton{
+  position:relative;
+  top: 25cap;
+  right: 50px;
+  height:45px ;
+  width: 140px;
+  border-radius: 50px;
+  /* background-color: #5c91dc; */
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+ -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+#myButton2{
+    position:relative;
+    top: 25cap;
+    left: 10cap;
+    height:45px ;
+    width: 140px;
+    border-radius: 60px;
+    /* background-color: #983f13; */
+    color: white;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+}
+h2{
+    font-size: medium;
+    position:absolute;
+    top: 350px;
+    left: 700px;
+}
+.copyCode{
+    font-size: smaller;
+    position:absolute;
+    top: 400px;
+    left: 640px; 
+    height: 100px;
+    width: 270px;
+    /* text-align: left; */
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.verticleLine{
+  position: relative; 
+  top: 322px; 
+  left: 23px;  
+  width: 3.5px;
+  height: 65px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255,255,255,0.23));
+}
+.head{
+    height: 50px;
+    width: 100%;
+}
+h3{
+    position: relative;
+    padding:4px 40px;
+    font-size: 30px; 
+
+}
+span{
+    color: aliceblue;
+    font-size: 40px;
+}
+i{
+ position: relative;
+ bottom: 42px;
+ left: 20px;   
+}
